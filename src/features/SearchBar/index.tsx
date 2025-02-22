@@ -12,7 +12,6 @@ export interface SearchBarProps {
 export const SearchBar = ({
   onSearch,
   isLoading = false,
-  totalItems = 0,
   initialSearch = "",
   initialLimit = 4,
 }: SearchBarProps) => {
