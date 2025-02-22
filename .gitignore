@@ -1,5 +1,5 @@
 # Общие файлы и папки
-node_modules
+node_modules/
 package-lock.json
 yarn.lock
 .DS_Store
@@ -10,20 +10,22 @@ Thumbs.db
 .env.local
 .env.development
 .env.production
+*.orig
+*.rej
 
 # Сгенерированные файлы
-build
-dist
-out
+build/
+dist/
+out/
 *.log
 *.swp
 *.tmp
-*.cache
-.parcel-cache
+*.cache/
+.parcel-cache/
 
 # IDE и редакторы
-.idea
-.vscode
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
@@ -38,3 +40,4 @@ out
 # Дополнительные файлы, которые могут быть в проекте
 .eslintcache
 .prettiercache
+
