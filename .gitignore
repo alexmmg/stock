@@ -1,0 +1,40 @@
+# Общие файлы и папки
+node_modules
+package-lock.json
+yarn.lock
+.DS_Store
+Thumbs.db
+
+# Локальные файлы конфигурации
+.env
+.env.local
+.env.development
+.env.production
+
+# Сгенерированные файлы
+build
+dist
+out
+*.log
+*.swp
+*.tmp
+*.cache
+.parcel-cache
+
+# IDE и редакторы
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Специфичные для macOS
+._*
+
+# Другие
+/coverage
+
+# Дополнительные файлы, которые могут быть в проекте
+.eslintcache
+.prettiercache
